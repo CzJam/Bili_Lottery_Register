@@ -57,7 +57,7 @@ if ($currentTimeStamp<$stopTimeStamp){
         else{
             if($dynaContentStatusCode=="0"){
                 mysqli_close($conn);
-                echo "<script>alert('$nick [UID:$uid] 未转发指定抽奖动态，请转发相关动态后再参与！【本次仅作测试，您可以转发测试后再删除动态】');window.location.href='index.html'</script>";
+                echo "<script>alert('$nick [UID:$uid] 未转发指定抽奖动态，请转发相关动态后再参与！');window.location.href='index.html'</script>";
             }
             else{
                 mysqli_close($conn);
