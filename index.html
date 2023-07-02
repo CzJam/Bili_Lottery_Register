@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title >抽奖报名系统</title>
+		<link href="https://cdn.staticfile.org/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    	<script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.staticfile.org/layer/3.1.1/layer.min.js"></script>
+
+
+		<style>
+			img.logo{width:14px;height:14px;margin:0 5px 0 3px;}
+			body{
+			/*background:#ecedf0 url("../../css/bj.png") fixed;*/
+			background:#ecedf0;
+			background-repeat:repeat;
+			padding:2%;
+			margin: 1% auto;
+			max-width:700px;
+			    
+			}
+			.panel{
+			    border-radius: 8px;
+			    margin-bottom: 15px;
+			    box-shadow: 0 0 14px #bdbdbd;
+			    overflow: hidden;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+	    <script src="https://cdn.staticfile.org/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+	    
+		<div class="container" style="margin-top:10px;">
+    	    <h1 style="margin-bottom:12%;text-align: center;margin-top:15%;font-size:35px"><b>公开抽奖报名系统</b></h1>
+    	    
+			<div class="panel panel-info">
+				<div id="zfq" class="list-group-item"  >
+    				<div class="form-group" style="margin:10px">
+    				    <form action="data.php" method="post">
+    					<div class="input-group">
+    						<div class="input-group-prepend">
+                                <span class="input-group-text">UID</span>
+                            </div>
+    						<input type="text" value="" name="userid" style="ime-mode:Disabled" class="form-control" required placeholder="输入UID或 “UID:xxx” 格式" />
+    					</div>
+    					<input type="submit" class="btn btn-primary btn-block" style="margin-top:10px" value="报名 / 查询结果">
+		                </form>
+    				</div>
+    				    	    <p style="text-align: center;">自动开奖时间：2023-07-02 20:00:00</p>
+    				    	    <p style="text-align: center;">中奖名额：1 &emsp;&emsp;奖品：无</p>
+
+				</div>
+				
+			</div>
+			
+			
+			<div class="panel panel-info">
+			    <div id="zfq" class="list-group-item"  >
+    				<div class="form-group" style="margin:10px">
+			            <p style="text-align:center;font-size:22px"><b>使用说明</b></p>
+                <p><b>Q：如何获取UID？</b><br>A：PC端：进入个人空间，链接中的数字即为UID。<br>手机APP：进入个人空间，点击签名旁的“详情”即可查看UID。</p><br>
+                <p><b>Q：报名系统是否公平？</b><br>A：该系统将已报名的用户公开展示，不会出现遗漏或重复。最后使用php内置随机数函数来抽奖。</p><br>
+                <p><b>Q：我是一名up主，也想通过这款报名系统来抽奖？</b><br>A：请前往<a style="color:#007BFF" href="https://github.com/CzJam/Bili_Lottery_Register" >开源地址</a> 根据教程自行部署。</p>
+			        </div>
+			    </div>
+			 </div> 
+			    
+			    
+			    
+		</div>	
+	</body>
+</html>
