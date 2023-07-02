@@ -1,5 +1,5 @@
 # Bilibili 公开抽奖报名系统
-[![demo.jpg](https://github.com/CzJam/Bili_Lottery_Register/demo.jpg)](https://github.com/CzJam/Bili_Lottery_Register/demo.jpg)
+[![demo.jpg](https://github.com/CzJam/Bili_Lottery_Register/blob/master/demo.jpg)](https://github.com/CzJam/Bili_Lottery_Register/blob/master/demo.jpg)
 B站在2022年3月对电磁力进行了改版，导致升级难度暴增。很多Up主难以达到抽奖所需的LV7，包括我自己。
 为了给粉丝抽奖，因此开发了这样一套抽奖报名系统。
 开发前参考了一些本地抽奖工具，最终决定采用“用户主动报名”的站外抽奖方式，这样生来可避免站内的大量抽奖号和机器人参与，更做到了报名结果公开，方便广大Up主回馈自己真正的粉丝。
